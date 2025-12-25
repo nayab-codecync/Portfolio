@@ -1,5 +1,5 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/treply.PNG';
+import viberr from '../../assets/treply.png';
 import freshBurger from '../../assets/smartknit.png';
 import hipsster from '../../assets/naplozz.png';
 import fitLift from '../../assets/brellhalth.png';
