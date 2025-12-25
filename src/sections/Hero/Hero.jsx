@@ -12,7 +12,7 @@ import CV from '../../assets/resume-nayab.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
-  const { theme, toggleTheme } = useTheme();
+  const { theme, toggleTheme } = useTheme("dark");
 
   const themeIcon = theme === 'light' ? sun : moon;
   const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
