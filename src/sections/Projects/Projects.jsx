@@ -2,7 +2,7 @@ import styles from './ProjectsStyles.module.css';
 import viberr from '../../assets/treply.png';
 import freshBurger from '../../assets/smartknit.png';
 import hipsster from '../../assets/naplozz.png';
-import fitLift from '../../assets/brellhalth.png';
+import fitLift from '../../assets/brellhealth.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
