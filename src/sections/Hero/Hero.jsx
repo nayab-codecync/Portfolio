@@ -12,7 +12,7 @@ import CV from '../../assets/resume-nayab.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
-  const { theme, toggleTheme } = useTheme("dark");
+  const { theme, toggleTheme } = useTheme();
 
   const themeIcon = theme === 'light' ? sun : moon;
   const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
@@ -40,15 +40,15 @@ function Hero() {
           <br />
            Nayab
         </h1>
-        <h2>Mern Stack Developer</h2>
+        <h2>Web Developer</h2>
         <span>
-          <a href="https://twitter.com/" target="_blank">
+          <a href="https://x.com/nayabkh66227886?s=21" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
           </a>
-          <a href="https://github.com/" target="_blank">
+          <a href="https://github.com/Nayabchamp" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="https://linkedin.com/" target="_blank">
+          <a href="https://www.linkedin.com/in/muhammad-nayab-202491193?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
